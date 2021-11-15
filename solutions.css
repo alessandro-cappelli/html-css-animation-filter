@@ -116,3 +116,15 @@
     transform: rotate(360deg);}
 }
 /* prima rotazione */
+
+.ex-11-icon{
+    animation-name: rotate2;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes rotate2 {
+    from {transform: rotate(2deg);
+    transform: rotate(360deg);}
+}
