@@ -1,0 +1,14 @@
+/* primo quadrato */
+.ex-1-square{
+    transition: all 0.2s ease 0s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+/* primo quadrato */
+
+/* secondo quadrato */
+.ex-2-square{
+    
+}
