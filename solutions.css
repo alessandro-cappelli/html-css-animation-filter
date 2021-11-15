@@ -39,3 +39,63 @@
     border-radius: 50px;
 }
 /* terzo quadrato */
+
+/* quarto quadrato */
+.ex-4-square{
+    transition: all 0.5s ease;
+}
+
+.ex-4-square:hover{
+    width: 0;
+    height: 0;
+}
+/* quarto quadrato */
+
+/* quinto quadrato */
+.ex-5-square{
+    transition: all 0.5s ease;
+}
+
+.ex-5-square:hover{
+    width: 200px;
+    height: 200px;
+}
+/* quinto quadrato */
+
+/* prima foto */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* prima foto */
+
+/* seconda foto */
+.ex-7-img{
+    transition: all 0.5s ease;
+}
+
+.ex-7-img:hover{
+    filter: contrast(1) sepia(1);
+}
+/* seconda foto */
+
+/* terza foto */
+.ex-8-img{
+    transition: all 0.5s ease;
+}
+
+.ex-8-img:hover{
+    filter: saturate(10) contrast(5);
+    border-radius: 30px;
+}
+/* terza foto */
+
+/* quarta foto */
+.ex-9-img{
+    transition: all 0.5s ease;
+}
+
+.ex-9-img:hover{
+    filter: saturate(10) contrast(5);
+    border-radius: 30px;
+    width: 350px;
+}
