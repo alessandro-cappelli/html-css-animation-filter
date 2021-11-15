@@ -62,6 +62,7 @@
 }
 /* quinto quadrato */
 
+
 /* prima foto */
 .ex-6-img:hover{
     filter: grayscale(1);
@@ -99,3 +100,19 @@
     border-radius: 30px;
     width: 350px;
 }
+/* quarta foto */
+
+
+/* prima rotazione */
+.ex-10-icon{
+    animation-name: rotate;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);
+    transform: rotate(360deg);}
+}
+/* prima rotazione */
