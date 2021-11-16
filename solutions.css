@@ -118,17 +118,21 @@
 /* prima rotazione */
 
 /* seconda rotazione */
-.ex-11-icon{
-    animation-name: rotate2;
-    animation-duration:2s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
+.ex-11-icon {
+    animation: rotate2 2s linear infinite;
+}
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
 
-@keyframes rotate2 {
-    from {transform: rotate(0deg);
-    transform: rotate(360deg);}
-}
 /* seconda rotazione */
 
 
