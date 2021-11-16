@@ -1,6 +1,6 @@
 /* primo quadrato */
 .ex-1-square{
-    transition: all 0.2s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 
 .ex-1-square:hover{
@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.ex-2-square:hover{
+.ex-2-square:active{
     animation: allungamento 5s ease-in;
 }
 
@@ -46,19 +46,22 @@
 }
 
 .ex-4-square:hover{
-    width: 0;
-    height: 0;
+    opacity: 0;
 }
 /* quarto quadrato */
 
 /* quinto quadrato */
 .ex-5-square{
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .ex-5-square:hover{
-    width: 200px;
-    height: 200px;
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(.5);
 }
 /* quinto quadrato */
 
@@ -149,7 +152,7 @@
     }
 
     100%{
-        left: 20%
+        left: 40%
     }
 }
 
@@ -165,7 +168,7 @@
     }
 
     100%{
-        right: 30%
+        right: 50%
     }
 }
 /* primo tasto */
